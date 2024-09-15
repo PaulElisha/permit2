@@ -12,3 +12,7 @@ fs_permissions = [{ access = "read-write", path = ".forge-snapshots/"}]
 [profile.integration]
 no_match_path = ""
 match_path = "*/integration/*"
+remappings=[
+    'solmate/=lib/solmate/src/',
+    'kaia/=lib/kaia-contracts/contracts',
+]
