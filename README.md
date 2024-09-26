@@ -93,4 +93,7 @@ Inspired by [merklejerk](https://github.com/merklejerk)'s [permit-everywhere](ht
 
 ## Deployed Address
 
-Kaia Mainnet:: 0xAFF6678E8F6eAe7B36d70bffffb7046Ee32D5e81
+This is an implementation of the Uniswap Permit2 on the Kaia mainnet aimed at increasing adoption and user experience on the Kaia chain.
+
+Permit2 Kaia Mainnet:: 0xAFF6678E8F6eAe7B36d70bffffb7046Ee32D5e81
+Permit2 Kairos Testnet:: 0xFbec9767C5D14f5282CEB44908CEF6326D3C4f0e
