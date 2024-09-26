@@ -90,3 +90,7 @@ forge script --broadcast --rpc-url <RPC-URL> --private-key <PRIVATE_KEY> --verif
 ## Acknowledgments
 
 Inspired by [merklejerk](https://github.com/merklejerk)'s [permit-everywhere](https://github.com/merklejerk/permit-everywhere) contracts which introduce permit based approvals for all tokens regardless of EIP2612 support.
+
+## Deployed Address
+
+Kaia Mainnet:: 0xAFF6678E8F6eAe7B36d70bffffb7046Ee32D5e81
