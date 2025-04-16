@@ -4,3 +4,6 @@
 [submodule "lib/kaia-contracts"]
 	path = lib/kaia-contracts
 	url = https://github.com/kaiachain/kaia-contracts
+[submodule "lib/solmate"]
+	path = lib/solmate
+	url = https://github.com/transmissions11/solmate
