@@ -91,9 +91,34 @@ forge script --broadcast --rpc-url <RPC-URL> --private-key <PRIVATE_KEY> --verif
 
 Inspired by [merklejerk](https://github.com/merklejerk)'s [permit-everywhere](https://github.com/merklejerk/permit-everywhere) contracts which introduce permit based approvals for all tokens regardless of EIP2612 support.
 
-## Deployed Address
+## Deployment details
 
 This is an implementation of the Uniswap Permit2 on the Kaia mainnet aimed at increasing adoption and user experience on the Kaia chain.
 
-Permit2 Kaia Mainnet:: 0xAFF6678E8F6eAe7B36d70bffffb7046Ee32D5e81
-Permit2 Kairos Testnet:: 0xFbec9767C5D14f5282CEB44908CEF6326D3C4f0e
+### Permit2 Kaia Mainnet:: 0x8432A544B7669409aE6dBb10b63611A1fbD49a6B
+
+```
+paulelisha@Macbook-M3-Pro permit2 % forge create --rpc-url https://public-en.node.kaia.io --private-key 3a5a4358e80d31101bb7705c84a9f0f85ced7aed9dd9b5c3f5eff6afad87b385 src/Permit2.sol:Permit2 --broadcast
+[⠊] Compiling...
+No files changed, compilation skipped
+Deployer: 0x1bAB6c36d216F27730519DFa284A4587B26182CB
+Deployed to: 0x8432A544B7669409aE6dBb10b63611A1fbD49a6B
+Transaction hash: 0xc5e939a0d0251d3bbbe5c8af026a481509279b75e4f7766bba3a47fa3314a04c
+paulelisha@Macbook-M3-Pro permit2 % forge verify-contract 0x8432A544B7669409aE6dBb10b63611A1fbD49a6B src/Permit2.sol:Permit2 --chain-id 8217 --verifier sourcify  --verifier-url https://sourcify.dev/server/  
+Start verifying contract `0x8432A544B7669409aE6dBb10b63611A1fbD49a6B` deployed on 8217
+
+Submitting verification for [Permit2] "0x8432A544B7669409aE6dBb10b63611A1fbD49a6B".
+The recompiled contract partially matches the deployed version
+paulelisha@Macbook-M3-Pro permit2 % 
+
+Contract Name:
+Permit2
+Compilation Target:
+src/Permit2.sol:Permit2
+Language:
+Solidity
+Compiler:
+solc 0.8.17+commit.8df45f5f
+EVM Version:
+london
+```
